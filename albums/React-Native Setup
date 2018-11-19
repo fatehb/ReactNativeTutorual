@@ -1,0 +1,17 @@
+React-Native Setup
+- Dependencies: for mac
+	- https://facebook.github.io/react-native/docs/getting-started.html
+	- need to have installed: xcode, homebrew, node/npm, watchman, RN CLI
+	- install or update brew
+	- install node/npm
+	- install watchman (brew install watchman)
+	- RN CLI - npm install -g react-native-cli
+
+- ESLint:
+	- npm install -g eslint
+	- npm install --save-dev eslint-config-rallycoding //intall ruleset
+	- install eslint in the IDE
+
+- Create Project:
+	- react-native init {NAMEOFAPP}
+    - cd into the newly created project folder run: react-native run-ios
